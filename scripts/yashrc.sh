@@ -1,0 +1,10 @@
+echo "alias up='doas pkg update ; doas pkg upgrade -y'
+alias cl='clear'
+alias ex='exit'
+alias remove='doas pkg delete'
+alias os='uname -r ; uname -a'
+alias nf='neofetch'
+alias ht='htop'
+alias sx='startx'
+alias install='doas pkg install'
+alias clean='doas pkg autoremove ; doas pkg clean' " >> .yashrc
