@@ -1,0 +1,1 @@
+echo "exec startxfce4" >> $HOME/.xinitrc
