@@ -7,4 +7,7 @@ alias nf='neofetch'
 alias ht='htop'
 alias sx='startx'
 alias install='doas pkg install'
-alias clean='doas pkg autoremove ; doas pkg clean' " >> .yashrc
+alias clean='doas pkg autoremove ; doas pkg clean'
+alias zink='MESA_LOADER_DRIVER_OVERRIDE=zink'
+alias mango='MANGOHUD_CONFIG=full,position=top-right,width=240,height=320 mangohud'
+alias reboot='shutdown -r now' " >> .yashrc
